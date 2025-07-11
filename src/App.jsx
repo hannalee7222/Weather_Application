@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import MapView from './components/MapView';
 
-const API_KEY = '66825f195d6f915bd99d3266cb47d937';
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const Container = styled.div`
   padding: 2rem;
